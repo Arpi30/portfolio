@@ -19,30 +19,6 @@
         'cv': {
             'cvCardTitle': 'Önéletrajz',
             'cvTitle': 'Önéletrajz',
-            'cvText': `Magasszintű informatikai érdeklődésem miatt nem
-                            jelent problémát egy szoftver elsajátítása, legutóbbi
-                            munkahelyemen ahol három és fél évet dolgoztam
-                            szintén az ipari gépek programozását és adatbázisát
-                            kellett elsajátítanom.
-                            Autodidakta módon fejlesztem magam a programozás
-                            világában és az eddig megszerzett tudásommal úgy
-                            érzem hogy a cég növekedését támogathatom.`,
-
-            'cvskills': {
-                'one': 'Tanulékonyság',
-                'two': 'Csapatjátékos',
-                'three': 'Jó problémamegoldó képesség',
-                'four': 'Új kihívások keresése és megoldása'
-            },
-            'schools': {
-                'cvSchool1': `2005 - 2010 HSZC Hódmezővásárhelyi Szakképzési Centrum`,
-                'cvSchool2': `2010 - 2012 HSZC Hódmezővásárhelyi Szakképzési Centrum`,
-            },
-            'cvLanguage': {
-                'german': `Német: Középfok/kommunikációképes szint`,
-                'english': `Angol: Alapfok/társalgási szint`
-            },
-            'cvExperience': ''
         },
 
 

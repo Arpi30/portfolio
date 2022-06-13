@@ -5,8 +5,8 @@ $(document).ready(function () {
         phoneHtml: '',
         Aboutme: '',
         cvAboutMe: '',
-        cvSkills: '',
-        cvSchool: '',
+        //cvSkills: '',
+        //cvSchool: '',
         phoneNumber: '06 / 30 - 7089495',
     };
     var DOMelement = {
@@ -33,15 +33,6 @@ $(document).ready(function () {
         //cv
         cvCardTitle: document.querySelector('.cvCardTitle'),
         cvTitle: document.querySelector('.cvTitle'),
-        cvText: document.querySelector('.cvText'),
-        one: document.querySelector('.one'),
-        two: document.querySelector('.two'),
-        three: document.querySelector('.three'),
-        four: document.querySelector('.four'),
-        cvSchool1: document.querySelector('.cvSchool1'),
-        cvSchool2: document.querySelector('.cvSchool2'),
-        german: document.querySelector('.german'),
-        english: document.querySelector('.english'),
         //availability
         availabilitytitle: document.querySelector('.availabilitytitle'),
         availabilityText: document.querySelector('.availabilityText'),
@@ -106,15 +97,6 @@ $(document).ready(function () {
                 //4.
                 DOMelement.cvCardTitle.innerHTML = data[attr].cv.cvCardTitle;
                 DOMelement.cvTitle.innerHTML = data[attr].cv.cvTitle;
-                DOMelement.cvText.innerHTML = data[attr].cv.cvText;
-                DOMelement.one.innerHTML = data[attr].cv.cvskills.one;
-                DOMelement.two.innerHTML = data[attr].cv.cvskills.two;
-                DOMelement.three.innerHTML = data[attr].cv.cvskills.three;
-                DOMelement.four.innerHTML = data[attr].cv.cvskills.four;
-                DOMelement.cvSchool1.innerHTML = data[attr].cv.schools.cvSchool1;
-                DOMelement.cvSchool2.innerHTML = data[attr].cv.schools.cvSchool2;
-                DOMelement.german.innerHTML = data[attr].cv.cvLanguage.german;
-                DOMelement.english.innerHTML = data[attr].cv.cvLanguage.english;
                 //5.
                 DOMelement.availabilitytitle.innerHTML = data[attr].availability.availabilitytitle;
                 DOMelement.availabilityText.innerHTML = data[attr].availability.availabilityText;
