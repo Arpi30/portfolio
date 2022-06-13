@@ -1,0 +1,273 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html::-webkit-scrollbar {
+    display: none;
+}
+/*------------------------------CARD--------------------------------*/
+.row{
+    margin-top: 5rem;
+    margin-left: 0;
+    margin-right: 0;
+    --bs-gutter-x : 0;
+}
+.card{
+    opacity: .7;
+    margin: 0;
+    border-radius: 0%;
+    position: relative;
+    border: none;
+    cursor: pointer;
+    background: none;
+    margin: 3px;
+    transition: .2s ease-in-out;
+}
+.card:hover{
+    opacity: 1;
+    z-index: 1;
+    transform: scale(1.05);
+}
+.card-body p, .card-body h5 {
+    position: absolute;
+}
+.card-body p{
+    bottom: 5rem;
+    color: white;
+    bottom: 1rem;
+    right: 1rem;
+    text-transform: uppercase;
+}
+.card-body h5{
+    bottom: 10rem;
+    color: white;
+}
+.text-body h1{
+    text-transform: uppercase;
+}
+img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.card-title{
+    color: white;
+    margin: 5px;
+    position: absolute;
+    text-transform: uppercase;
+}
+.dev{
+    right: 1rem;
+}
+/*------------------------------CONTAINER--------------------------------*/
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+}
+
+.container-fluid{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+    width: 100%;
+    padding: 0;
+    background: url('img/bg2.jpg');
+    background-color: rgba(0, 0, 0, 1);
+    background-size: cover;
+    background-position: center;
+    
+}
+@keyframes myAnim {
+    0% {
+        background-position: 50% 0%;
+    }
+
+    100% {
+        background-position: 50% 100%;
+    }
+}
+/*------------------------------MAIN--------------------------------*/
+
+main{
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    height: 50%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+/*------------------------------MENU,MENUGOMB--------------------------------*/
+
+.hamburgermenu{
+    width: 20px;
+    height: 10px;
+}
+.offcanvas{
+    transition: transform .8s ease-in-out;
+}
+@keyframes myAnim {
+    0%,
+    50%,
+    100% {
+        opacity: 1;
+    }
+    25%,
+    75% {
+        opacity: 0;
+    }
+}
+
+/*---------------------------------TEXT--------------------------------*/
+div.intor-and-lang-field{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+section.intro{
+    color: #e4e4e4;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 80vw;
+    grid-area: 2 / 2 / 3 / 12;
+}
+
+.text-body h1, .text-body p, ul li, h4, .aboutMe, .skills, .schools, .language, span{
+    color: #e4e4e4;
+    text-align: justify;
+    list-style: none;
+    white-space: pre-line;
+}
+.text-body{
+    border-left: 4px solid rgb(48, 48, 48);
+    border-right: 4px solid rgb(48,48,48);
+}
+.text-body h1{
+    margin-bottom: 1rem;
+}
+/*---------------------------------ICON--------------------------------*/
+i{
+    cursor: pointer;
+}
+.phoneAnimationIn{
+    animation: phoneIn 1s ease 0s 1 normal forwards;
+    color: #e4e4e4;
+}
+@keyframes phoneIn {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+/*---------------------------------STACKBAR--------------------------------*/
+
+.stackList{
+    width: 90%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .2);
+}
+.info span{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.animate{
+    height: 1vh;
+    width: 100%;
+    background: #f0f0f0;
+    position: relative;
+    border-radius: .7rem;
+    transform: scaleX(0);
+    transform-origin: left;
+    animation: progress-line 1s cubic-bezier(1,0,.5,1) forwards;
+}
+
+.animate span{
+    height: 100%;
+    width: 80%;
+    background: #6665ee;
+    position: absolute;
+    border-radius: .7rem;
+    transform: scaleX(0);
+    transform-origin: left;
+    animation: progress-line 1s 1s cubic-bezier(1, 0, .5, 1) forwards;
+}
+@keyframes progress-line {
+    100% {
+        transform: scaleX(1);
+    }
+}
+.progress-line span::before{
+    position: absolute;
+    content: "";
+    right: 0;
+    top: -10px;
+    height: 0;
+    width: 0;
+    border: 7px solid transparent;
+    border-top-color: #000;
+    border-bottom-width: 0;
+    border-right-width: 0;
+}
+.progress-line span::after {
+    position: absolute;
+    right: 0;
+    top: -33px;
+    background: #000;
+    font-weight: 600;
+    padding: 1px 5px;
+    border-radius: 5px;
+}
+.progress-line.html span::after{
+    content: "60%";
+}
+.progress-line.css span::after {
+    content: "70%";
+}
+.progress-line.bootstrap span::after {
+    content: "70%";
+}
+.progress-line.javascript span::after {
+    content: "50%";
+}
+.progress-line.html span {
+    width: 60%;
+}
+
+.progress-line.css span {
+    width: 70%;
+}
+
+.progress-line.bootstrap span {
+    width: 70%;
+}
+
+.progress-line.javascript span {
+    width: 50%;
+}
+/*---------------------------------FORM--------------------------------*/
+label{
+    color: #e4e4e4;;
+}
+.sendBtn{
+    background-color: rgba(0, 0, 0, .2);
+    border: none;
+}
+/*---------------------------------MULTILANGICON--------------------------------*/
+.langWrap{
+    width: 90vw;
+    display: flex;
+    justify-content: end;
+}
+a.list-group-item{
+    width: 5rem;
+}

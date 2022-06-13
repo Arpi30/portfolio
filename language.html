@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="langWrap">
+            <a href="#" language="english" class="active">EN</a>
+            <a href="#" language="hungary">HU</a>
+        </div>
+
+        <div class="content">
+            <h1 class="title">Hello World</h1>
+            <p class="description">My name is Arpad</p>
+        </div>
+    </div>
+</body>
+
+
+
+
+<script>
+
+    var langEl = document.querySelector('.langWrap');
+    var link = document.querySelectorAll('a');
+    var titleEl = document.querySelector('.title');
+    var descrEl = document.querySelector('.description');
+
+
+    link.forEach(el => {
+        el.addEventListener('click', () => {
+            langEl.querySelector('.active').classList.remove('active');
+            el.classList.add('active');
+
+            var attr = el.getAttribute('language');
+            titleEl.textContent = data[attr].title;
+            descrEl.textContent = data[attr].description;
+        });
+    });
+
+    var data = {
+        'english': {
+            'title': 'Hello World',
+            'description': 'Ma name is Arpad'
+        },
+
+        'hungary': {
+            'title': 'Hello Vilag',
+            'description': 'Az en nevem Arpad'
+        }
+    }
+</script>
+</html>
