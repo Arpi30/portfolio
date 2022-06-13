@@ -144,10 +144,10 @@ section.intro{
     grid-area: 2 / 2 / 3 / 12;
 }
 section.intro h1{
-    font-size: 5rem;
+    font-size: calc(2.2rem + 2vw);
 }
 section.intro h3{
-    font-size: 3rem;
+    font-size: calc(1.5rem + 1.6vw)
 }
 section .nameTextColor{
     color: rgb(177, 0, 0);
@@ -285,3 +285,8 @@ label{
 a.list-group-item{
     width: 5rem;
 }
+@media (max-width: 425px){
+    .card{
+        width: 100% !important
+    };
+};
