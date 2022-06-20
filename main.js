@@ -30,6 +30,10 @@ $(document).ready(function () {
         stackCloseBtn: $('.stackCloseBtn'),
         //projekt
         projektCardTitle: document.querySelector('.projektCardTitle'),
+        projectBodyTitle: document.querySelector('.projectBodyTitle'),
+        projectPort: document.querySelector('.port'),
+        projectCV: document.querySelector('.resumeCV'),
+        projectweatherApp: document.querySelector('.weatherApp'),
         //cv
         cvCardTitle: document.querySelector('.cvCardTitle'),
         cvTitle: document.querySelector('.cvTitle'),
@@ -94,6 +98,10 @@ $(document).ready(function () {
                 DOMelement.stackTitle.innerHTML = data[attr].stack.stackTitle;
                 //3.
                 DOMelement.projektCardTitle.innerHTML = data[attr].projekt.projektCardTitle;
+                DOMelement.projectBodyTitle.innerHTML = data[attr].projekt.projectBodyTitle;
+                DOMelement.projectPort.innerHTML = data[attr].projekt.port;
+                DOMelement.projectCV.innerHTML = data[attr].projekt.resumeCV;
+                DOMelement.projectweatherApp.innerHTML = data[attr].projekt.weatherApp;
                 //4.
                 DOMelement.cvCardTitle.innerHTML = data[attr].cv.cvCardTitle;
                 DOMelement.cvTitle.innerHTML = data[attr].cv.cvTitle;

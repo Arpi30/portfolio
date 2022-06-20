@@ -10,11 +10,15 @@
                                 ennek eredményeként kezdtem el tanulni webprogramozást.`,
         },
         'stack': {
-            'stackCardTitle': 'képesség',
+            'stackCardTitle': 'képességek',
             'stackTitle': 'képesség',
         },
         'projekt': {
             'projektCardTitle': 'projektek',
+            'projectBodyTitle': 'PROJEKTEK',
+            'port': 'Portfolió',
+            'resumeCV': 'Önéletrajz',
+            'weatherApp': 'Időjárás App',
         },
         'cv': {
             'cvCardTitle': 'Önéletrajz',
@@ -56,6 +60,10 @@
         },
         'projekt': {
             'projektCardTitle': 'projects',
+            'projectBodyTitle': 'PROJECTS',
+            'port': 'Portfolio',
+            'resumeCV': 'CV',
+            'weatherApp': 'weatherApp',
         },
         'cv': {
             'cvCardTitle': 'CV',
