@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+.containerCv {
+    grid-template-columns: 1fr 2fr;
+}
+
+
+@media (max-width: 1000px) {
+    .containerCv {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+#noDownload:hover {
+    background: rgb(252, 167, 167) !important;
+}
+
+@media print {
+    .containerCv * {
+        margin: 0;
+    }
+}

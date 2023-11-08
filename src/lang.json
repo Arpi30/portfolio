@@ -1,0 +1,429 @@
+{
+    "lang":{
+        "eng": {
+            "nav":{
+                "navbar" : [
+                    {"linksId" : "Home"},
+                    {"linksId" : "About"},
+                    {"linksId" : "Skills"},
+                    {"linksId" : "Projects"},
+                    {"linksId" : "Cv"},
+                    {"linksId" : "Footer"}
+                ],
+                "connect" : "Connect",
+                "save" : "CV download"
+            },
+            "home": {
+                "title": "Welcome to my Portfolio",
+                "titleBody" : "Arpad Acs Frontend developer",
+                "body" : "Welcome to my frontend portfolio page! My passion is improving user experience and creating elegant design. Technologies used include HTML, CSS, JavaScript, GIT and the latest frameworks such as React and React bootstrap. I am ready for new challenges and exciting projects. Contact me and let's create the next digital masterpiece together!"
+            },
+            "skills": {
+                "title" : "Skills",
+                "body" : "Skills and plans."
+            },
+            "project" : {
+                "projectsNavbar" : [
+                    { "linksId": "Weather", "eventkey": "first" },
+                    { "linksId": "To-Do", "eventkey": "second" },
+                    { "linksId": "Contact List", "eventkey": "third" },
+                    { "linksId": "Open Season", "eventkey": "fourth" }
+                ],
+                "projectsDetails" : [
+                    {
+                    "continue" : "Continue",
+                    "title" : "Weather App", 
+                    "desc" : "The weather application, which I developed using HTML/CSS and JavaScript, is an excellent tool for viewing weather forecasts. The app is easy to use and allows users to get accurate current weather conditions."
+                    },
+                    {
+                    "continue" : "Continue",
+                    "title" : "Todo App", 
+                    "desc" : "Allow me to present my TODO application, which I created using HTML/CSS and JavaScript. The app aims to make it easier to track and manage tasks. You can add tasks in the application and when you are done with them, you can simply delete them."
+                    },
+                    {
+                    "continue" : "Continue",
+                    "title" : "Contact List", 
+                    "desc" : "This was a university submission. I started learning the language in October and was able to create this phonebook application thanks to the thematic knowledge I had acquired so far. In this application you can add, delete and search for people through the menu system."
+                    },
+                    {
+                    "continue" : "Continue",
+                    "title" : "Open Season", 
+                    "desc" : "The camp website, which I developed using HTML/CSS, JavaScript and React, offers a complete online experience for campers and their parents. The page contains information about various camp activities, dates and registration fees. The site allows parents to register for the camp online and select appropriate activities for their children."
+                    }
+                ]
+            },
+            "contact" : {
+                "body" : [
+                    {"label" : "Name", "validationtext" : "Minimum 5 maximum 20 character", "placeholder" : "Enter your name"},
+                    {"label" : "Email", "validationtext" : "@/./com/hu/eu/...", "placeholder" : "Enter your email"},
+                    {"label" : "Message", "validationtext" : "Minimum 5 maximum 200 character", "placeholder" : "Enter your message"}
+                ],
+                "button" : "Send",
+                "modal" : {
+                    "title" : "Thank you for your message",
+                    "body" : "I will reply soon with an answer!",
+                    "button" : "Close"
+                }
+            },
+            "about" : {
+                "title": "A short summary about me",
+                "accordion" : [
+                    {"header" : "the beginning of beginnings", "body" : "Looking back on my early years, I devoted myself wholeheartedly to the world of technology and computers. When I was ten years old, I discovered our first computer, an exciting Commodore 486. The rudimentary DOS system and only two games brought real magic to my life. Together with my brothers, we immersed ourselves in fascinating worlds every day, and I soon realized that this kind of technology would be an eternal part of my life. My commitment to IT is rooted in this early period. The joy of discovery and the possibility of creativity that computers provided deeply inspired me and encouraged me to always keep up with the latest technological developments.", "eventkey" : "first"},
+                    {"header" : "School years", "body" : "Even during my school years, I remained loyal to the magic of IT and passionately researched new opportunities in the world of development. My first small steps towards programming also took place during this period. The websites I created and the online platforms to present myself allowed me to express my creativity and take advantage of the endless possibilities that the Internet has to offer. I remember when Gportal, the predecessor of Wordpress, started to conquer the Internet. Creating custom websites and sharing content fascinated me even then. My first experiences as a web developer began to take shape on a platform where creative freedom and showing personal style were at the center.", "eventkey" : "second"},
+                    {"header" : "Leaving a bird's nest", "body" : "In the period of 'Leaving the bird's nest' during my studies, it turned out that I did not continue in the IT world, but the profession of chef opened the door to creativity and creation for me. This period was about getting to know Life with a capital letter, gaining experience and realizing goals. I respectfully accepted the influences of my environment and made decisions based on the conclusions drawn from them. One of my most important goals was to create my own home and develop and learn about myself. During my life, I lived and worked in three different countries before I finally managed to achieve my goals. The path I chose was exciting and educational, and I gained a lot of valuable experience. Living and working in a diverse environment gave me the opportunity to develop my creative thinking and learn about other cultures and lifestyles. The experiences and challenges confirmed that I want to devote my life to the realization of my goals and dreams. Finally, after achieving my goals and testing myself in different environments, I decided to return to my country. Starting a new chapter, I am now looking to set new exciting goals and discover even more opportunities in the world of IT and development.", "eventkey" : "third"},
+                    {"header" : "Formulation of the goal", "body" : "During this period, a new, exciting chapter of life began to take shape in me. Around the end of my 29th year, I felt more and more strongly that IT was my passion and my profession. I started learning programming intensively with small breaks every day, but determinedly, that is, I never gave up. Although my knowledge was somewhat worn out due to the ten-year absence, I did not hesitate, but thought that I would start my studies from the beginning. In the beginning, the world of IT was unknown to me, but I quickly immersed myself in Python, a language that is highly praised on the Internet and easy to learn. After that, I got to know the HTML/CSS/Javascript web languages, which I could use to create websites. But what really caught my attention was the React javascript library, which impressed me thanks to its simplicity and efficiency. I constantly improved my knowledge and got acquainted with several other React-based libraries, as well as learned to use the GIT version control system effectively. As a result of my interest and persistence, a large multinational company recognized the opportunity in me, and I was placed in the IT field as a Mainframe administrator. During my journey, I never stopped, I always moved on and constantly learned and developed in the world of IT. For me, IT is not just a job, but a profession in which I find joy and in which I always find new challenges, which I respond to with enthusiasm.", "eventkey" : "fourth"}
+                ]
+            },
+            "cv":{
+                "contact" : {
+                    "title" : "Contact",
+                    "desc" : [
+                        {"label" : "Tel", "text" : "+3630/0965003"},
+                        {"label" : "Email", "text" : "alijie24gmail.com"},
+                        {"label" : "Address", "text" : "6800 Hódmezővásárhely, Hungary"},
+                        {"label" : "Year of birth", "text" : "Hungary, 1990.09.07."}
+                    ]
+                },
+                "education": {
+                    "title" : "Education",
+                    "desc" : [
+                        {"year" : "2010 - 2012", "title" : "Cook", "place" : "HISZK Corvin Mátyás"},
+                        {"year" : "2005 - 2010", "title" : "Graduation", "place" : "HISZK Corvin Mátyás"},
+                        {"year" : "2023 - ", "title" : "Computer Science", "place" : "Tokaj Mountain University"}
+                    ]
+                },
+                "lang": {
+                    "title" : "Language",
+                    "desc" : [
+                        {"lang" : "Germany", "width" : "70%"},
+                        {"lang" : "English", "width" : "30%"}
+                    ]
+                },
+                "experience" : {
+                    "title" : "Experience",
+                    "content" : [
+                        {"year" : "2021 - Present", "place" : "Deutsche Telekom IT Solution", "title" : "Mainframe Administrator", "desc" : "Basic z/OS system and subsystem knowledge Application of TSO, ISPF, JCL knowledge, Batch/Scheduling knowledge. Processing tasks in the ticket system within the deadline set by the customer."},
+                        {"year" : "2018 - 2021", "place" : "Handl Tyrol Gmbh.", "title" : "Machinist", "desc" : "Assembling and disassembling the filling machines operated by the company, adjusting them for different products in the HCU system, recording product movements in an SQL database. Monitoring of production on the company's server machine, recording periodic data in Excel format. Filling and adjusting the smoking chambers. Due to my acquired experience and sense of responsibility, I had the opportunity to prove my suitability as a shift leader in several cases."},
+                        {"year" : "2016 - 2017", "place" : "Marks and Spencer", "title" : "Warehouseman", "desc" : "In the European central distribution warehouse of the company, my tasks included the accounting of the incoming price of several thousand items in the database developed by the company and the maintenance of the warehouse order."},
+                        {"year" : "2015 - 2016", "place" : "Lidl Hungary Bt.", "title" : "Shop worker", "desc" : "As a store salesperson, my duties included high-level, empathetic customer service, providing them with information, and handling complaints. Continuous replenishment of goods, checking and acceptance of incoming shipments, receiving returned goods and maintaining warehouse order."},
+                        {"year" : "2013 - 2015", "place" : "Daimler Mercedes, Germany", "title" : "Logistics Associate", "desc" : "Receipt and recording of car parts in an Excel database, storage tasks, packaging and delivery of products, paying particular attention to meeting the deadlines essential for the proper operation of the production lines."}
+                    ]
+                },
+                "interest": {
+                    "title" : "interest",
+                    "content" : [
+                        {"title" : "Code"},
+                        {"title" : "Cook"},
+                        {"title" : "Sport"},
+                        {"title" : "DIY"},
+                        {"title" : "Videogame"}
+                    ]
+                }
+            },
+            "footer" : {
+                "title" : [
+                    {"title" : "Get in Touch", "content" : [
+                        {"label" : "Arpad Acs"},
+                        {"label" : "+3630/096-5003"},
+                        {"label" : "alijie24@gmail.com"}
+                    ]},
+                    {"title" : "Social", "content" : [
+                        {"label" : "Instagram"},
+                        {"label" : "Facebook"},
+                        {"label" : "Linkedin"}
+                    ]},
+                    {"title" : "Useful links", "content" : [
+                        {"label" : "Github"},
+                        {"label" : "CodeWars"},
+                        {"label" : "W3Schools"},
+                        {"label" : "Mozilla"}
+                    ]}
+                ]
+            }
+        },
+        "hu": {
+            "nav":{
+                "navbar" : [
+                    {"linksId" : "Főoldal"},
+                    {"linksId" : "Rólam"},
+                    {"linksId" : "Készségek"},
+                    {"linksId" : "Projektek"},
+                    {"linksId" : "Cv"},
+                    {"linksId" : "lábléc"}
+                ],
+                "connect" : "Kapcsolat",
+                "save" : "CV letöltés"
+            },
+            "home": {
+                "title": "Üdvözöllek a portfolio oldalamon",
+                "titleBody" : "Ács Árpád Frontend fejlesztő",
+                "body" : "Üdvözöllek a frontend portfolió oldalamon! Szenvedélyem a felhasználói élmény fejlesztése és az elegáns dizájn létrehozása. Az alkalmazott technológiák közé tartozik HTML, CSS, JavaScript, GIT valamint a legfrissebb keretrendszerek, mint például React és React bootstrap. Kész vagyok új kihívásokra és izgalmas projektekre. Lépj velem kapcsolatba, és hozzuk létre együtt a következő digitális mesterművet!"
+            },
+            "skills": {
+                "title" : "Készségek",
+                "body" : "Készségek és tervek."
+            },
+            "project" : {
+                "projectsNavbar" : [
+                    { "linksId": "Időjárás", "eventkey": "first" },
+                    { "linksId": "To-Do", "eventkey": "second" },
+                    { "linksId": "Telefonkönyv", "eventkey": "third" },
+                    { "linksId": "Nagyon Vadon", "eventkey": "fourth" }
+                ],
+                "projectsDetails" : [
+                    {
+                    "continue" : "Tovább",
+                    "title" : "Időjárás App", 
+                    "desc" : "Az időjárás applikáció, amit HTML/CSS és JavaScript segítségével fejlesztettem, egy kiváló eszköz az időjárás előrejelzések megtekintéséhez. Az alkalmazom könnyen használható, és lehetővé teszi a felhasználók számára, hogy pontosan megtudják az aktuális időjárási körülményeket."
+                    },
+                    {
+                    "continue" : "Tovább",
+                    "title" : "Todo App", 
+                    "desc" : "Engedd meg, hogy bemutassam a TODO applikációm, amelyet HTML/CSS és JavaScript segítségével hoztam létre. Az alkalmazás célja, hogy könnyebbé tegye a feladatok nyomon követését és kezelését. Az alkalmazásban felveheted a teendőket, és amikor végzel velük, egyszerűen törölheted azokat."
+                    },
+                    {
+                    "continue" : "Tovább",
+                    "title" : "Telefonykönyv", 
+                    "desc" : "Ez egy egyetemi beadandó volt. Októberben kezdtem el tanulni a nyelvet, és az eddig megszerzett tematikus ismereteimnek köszönhetően tudtam létrehozni ezt a telefonkönyv-alkalmazást. Ebben az alkalmazásban a menürendszeren keresztül lehet embereket hozzáadni, törölni és keresni."
+                    },
+                    {
+                    "continue" : "Tovább",
+                    "title" : "Nagyon vadon", 
+                    "desc" : "A táborozó weboldal, amit HTML/CSS, JavaScript és React segítségével fejlesztettem, egy teljes körű online élményt kínál a táborozóknak és a szüleiknek. Az oldal tartalmaz információkat a különböző tábori tevékenységekről, az időpontokról és a regisztrációs díjakról. Az oldal lehetővé teszi a szülők számára, hogy online regisztráljanak a táborba, és kiválasszák a megfelelő tevékenységeket a gyermekeik számára."
+                    }
+                ]
+            },
+            "contact" : {
+                "body" : [
+                    {"label" : "Név", "validationtext" : "Minimum 5 maximum 20 karakter", "placeholder" : "Add meg a neved"},
+                    {"label" : "Email", "validationtext" : "@/./com/hu/eu/...", "placeholder" : "Add meg az emailed"},
+                    {"label" : "Üzenet", "validationtext" : "Minimum 5 maximum 200 karakter", "placeholder" : "Írj üzenetet"}
+                ],
+                "button" : "Küldés",
+                "modal" : {
+                    "title" : "Köszönöm az üzeneted",
+                    "body" : "Hamarosan egy válasz emialben fogok visszajelezni!",
+                    "button" : "Bezárás"
+                }
+            },
+            "about" : {
+                "title": "Egy rövid kis összefoglaló rólam",
+                "accordion" : [
+                    {"header" : "A kezdetek kezdete", "body" : "Kezdeti éveimre visszatekintve szívvel-lélekkel hódoltam a technológia és a számítógépek világának. Már tízéves koromban felfedeztem az első számítógépünket, egy izgalmas Commodore 486-ost. A kezdetleges DOS rendszer és a mindössze két játék igazi varázslatot hoztak az életembe. Együtt testvéreimmel, nap mint nap lenyűgöző világokba merültünk, és hamar rájöttem, hogy ez a fajta technológia örök részese lesz az életemnek. Az elköteleződésem az informatika iránt ebben a korai időszakban gyökerezik. A felfedezés öröme és a kreativitás lehetősége, amit a számítógépek nyújtottak, mélyen inspiráltak és arra ösztönöztek, hogy mindig a legújabb technológiai fejleményekkel lépést tartsak.", "eventkey" : "first"},
+                    {"header" : "Iskolás évek", "body" : "Az iskolás évek alatt is hűséges maradtam az informatika varázsához, és szenvedélyesen kutattam az új lehetőségeket a fejlesztés világában. Az első kis lépéseim a programozás felé szintén ebben az időszakban történtek. Az általam létrehozott weboldalak és a saját magam bemutatására szolgáló online felületek lehetővé tették, hogy kifejezzem kreativitásomat és megragadjam az internet által nyújtott végtelen lehetőségeket. Emlékszem, amikor még a Wordpress elődje, a Gportal kezdte meghódítani az internetet. Az egyéni weboldalak létrehozása és a tartalom megosztása már ekkor is lenyűgözött. Az első webfejlesztői tapasztalataim azon a platformon kezdtek formálódni, ahol az alkotói szabadság és a személyes stílus megmutatása a középpontban állt.", "eventkey" : "second"},
+                    {"header" : "Madárfészek elhagyása", "body" : "A 'Madérfészek elhagyása' időszakában a tanulmányok során úgy alakult, hogy nem az IT világában folytattam, hanem  a szakács szakma nyitotta meg előttem a kreativitás és az alkotás kapuját. Ez az időszak a nagybetűs Élet megismeréséről, a tapasztalatok szerzéséről és a célok megvalósításáról szólt. Tisztelettel elfogadtam a környezetem hatásait és a belőlük levont konklúziók alapján döntöttem. Az egyik legfontosabb célom a saját otthonom létrehozása, valamint önmagam fejlesztése és megismerése volt. Életutam során három különböző országban éltem és dolgoztam, mire végül sikerült elérnem kitűzött céljaimat. Az általam választott út izgalmas és tanulságos volt, és rengeteg értékes tapasztalattal gazdagodtam. A változatos környezetben való élet és munka lehetőséget adott arra, hogy kibontakoztassam kreatív gondolkodásomat és megismerjek más kultúrákat és életmódokat. A tapasztalatok és kihívások megerősítettek abban, hogy az életemet a céljaim és álmaim megvalósítására szeretném fordítani. Végül, miután elértem a kitűzött célokat és kipróbáltam magam különböző környezetekben, döntöttem úgy, hogy visszatérek hazámba. Az újabb fejezetet indítva most azon vagyok, hogy az informatika és a fejlesztés világában újabb izgalmas célokat tűzzek ki és még több lehetőséget fedezzek fel.", "eventkey" : "third"},
+                    {"header" : "A cél megfogalmazódása", "body" : "Ebben az időszakban az életnek egy újabb, izgalmas fejezete kezdett megfogalmazódni bennem. Körülbelül a 29. életévem végére éreztem egyre erősebben, hogy az informatika az én szenvedélyem és a hivatásom. Intenzíven kezdtem el minden nap kisebb kihagyásokkal, de eltökélten, azaz sosem adtam fel, tanulni a programozást. Bár a tíz évnyi kihagyás miatt a tudásom kissé kopott volt, nem rettentem vissza, hanem úgy gondoltam, hogy az elejéről kezdem el a tanulást. Az informatika világa kezdetben ismeretlen volt számomra, de hamar belemerültem egy, az interneten nagyon dícsért és könnyen tanulható nyelvbe, a Pythonba. Ezt követően megismerkedtem az HTML/CSS/Javascript webes nyelvekkel, melyek segítségével weboldalakat hozhattam létre. Ám igazán a React javascriptes könyvtár ragadta meg a figyelmemet, amely egyszerűségének és hatékonyságának köszönhetően lenyűgözött. Folyamatosan fejlesztettem tudásomat és megismerkedtem számos más React alapú könyvtárral, valamint megtanultam hatékonyan használni a GIT verziókezelő rendszert. Az érdeklődésem és kitartásom eredményeképpen egy nagy multinacionális vállalat felismerte bennem a lehetőséget, és az IT területén helyezkedtem el, mint Mainframe adminisztrátor. Az utam során sosem álltam meg, mindig tovább léptem és folyamatosan tanultam, fejlődtem az informatika világában. Az IT számomra nem csak munka, hanem egy hivatás, amelyben örömöm lelem és amelyben mindig új kihívásokat találok, amikre lelkesedéssel válaszolok.", "eventkey" : "fourth"}
+                ]
+            },
+            "cv":{
+                "contact" : {
+                    "title" : "Kapcsolat",
+                    "desc" : [
+                        {"label" : "Tel", "text" : "+3630/0965003"},
+                        {"label" : "Email", "text" : "alijie24gmail.com"},
+                        {"label" : "cím", "text" : "6800 Hódmezővásárhely, Magyarország"},
+                        {"label" : "Szül. év", "text" : "Magyarország, 1990.09.07."}
+                    ]
+                },
+                "education": {
+                    "title" : "Végzettség",
+                    "desc" : [
+                        {"year" : "2010 - 2012", "title" : "Szakács", "place" : "HISZK Corvin Mátyás"},
+                        {"year" : "2005 - 2010", "title" : "Érettségi", "place" : "HISZK Corvin Mátyás"},
+                        {"year" : "2023 - ", "title" : "Programtervező informatikus", "place" : "Tokaj Hegyalja Egyetem"}
+                    ]
+                },
+                "lang": {
+                    "title" : "Nyelv",
+                    "desc" : [
+                        {"lang" : "Német", "width" : "70%"},
+                        {"lang" : "Angol", "width" : "30%"}
+                    ]
+                },
+                "experience" : {
+                    "title" : "Tapasztalat",
+                    "content" : [
+                        {"year" : "2021 - jelenleg", "place" : "Deutsche Telekom IT Solution", "title" : "Mainframe Adminisztrátor", "desc" : "Alap z/OS rendszer és subsystem ismeretek TSO, ISPF, JCL tudás, Batch/Scheduling ismeretek alkalmazása. A feladatok ticket rendszerben történő feldolgozása az ügyfél által szabott határidőn belül."},
+                        {"year" : "2018 - 2021", "place" : "Handl Tyrol Gmbh., Tyrol", "title" : "Gépmester", "desc" : "A vállalat által üzemeltetett töltőgépek össze és szétszerelése,a különböző termékekhez való beállítása HCU rendszerben,termékmozgások lekönyvelése SQL adatbázisban. A termelés nyomonkövetése a vállalat szervergépén, időszakos adatok lekönyvelése Excel formátumban. A füstölő kamrák feltöltése és beállítása. A megszerzett tapasztalatom és felelőségtudatom miatt több esetben műszakvezetőként is lehetőségem volt bizonyítani alkalmasságomat."},
+                        {"year" : "2016 - 2017", "place" : "Marks and Spencer, UK", "title" : "Raktáros", "desc" : "A vállalat Európai központi elosztó raktárbázisában a feladataim közé tartozott a több ezres tételből álló beérkező árú könyvelése a cég által fejlesztett adatbázisban valamint a raktárrend fenntartása."},
+                        {"year" : "2015 - 2016", "place" : "Lidl Magyarország Bt.", "title" : "Bolti eladó", "desc" : "Bolti értékesítőként feladataim közé tartozott a vevők magasfokú, empatikus kiszolgálása, részükre információadás, reklamációk kezelése. Az áru folyamatos feltöltése, beérkező szállítmányok ellenőrzése, átvétele, a visszáru fogadása és a raktárrend fenntartása."},
+                        {"year" : "2013 - 2015", "place" : "Daimler Mercedes, Németország", "title" : "Logisztikai munkatárs", "desc" : "Autóalkatrészek bevételezése, lekönyvelése Excel adatbázisban, raktározási feladatok ellátása, termékek csomagolása, szállítása, különös figyelemmel a gyártósorok megfelelő üzemeléséhez elengedhetetlen időhatárok betartására."}
+                    ]
+                },
+                "interest": {
+                    "title" : "Érdeklődés",
+                    "content" : [
+                        {"title" : "Kódolás"},
+                        {"title" : "Főzés"},
+                        {"title" : "Sport"},
+                        {"title" : "DIY"},
+                        {"title" : "Videójáték"}
+                    ]
+                }
+            },
+            "footer" : {
+                "title" : [
+                    {"title" : "Kapcsolat", "content" : [
+                        {"label" : "Ács Árpád"},
+                        {"label" : "+3630/096-5003"},
+                        {"label" : "alijie24@gmail.com"}
+                    ]},
+                    {"title" : "Közösség", "content" : [
+                        {"label" : "Instagram"},
+                        {"label" : "Facebook"},
+                        {"label" : "Linkedin"}
+                    ]},
+                    {"title" : "Hasznos linkek", "content" : [
+                        {"label" : "Github"},
+                        {"label" : "CodeWars"},
+                        {"label" : "W3Schools"},
+                        {"label" : "Mozilla"}
+                    ]}
+
+                ]
+            }
+        },
+        "de": {
+            "nav":{
+                "navbar" : [
+                    {"linksId" : "Hauptseite"},
+                    {"linksId" : "Übermich"},
+                    {"linksId" : "Fähigkeiten"},
+                    {"linksId" : "Projekte"},
+                    {"linksId" : "Cv"},
+                    {"linksId" : "Fusszeile"}
+                ],
+                "connect" : "Kontakt",
+                "save" : "CV herunterladen"
+            },
+            "home": {
+                "title": "Willkommen in meinem Portfolio",
+                "titleBody" : "Arpad Acs Frontend-Entwickler",
+                "body" : "Willkommen auf meiner Frontend-Portfolio-Seite! Meine Leidenschaft ist es, die Benutzererfahrung zu verbessern und elegantes Design zu schaffen. Zu den verwendeten Technologien gehören HTML, CSS, JavaScript, GIT und die neuesten Frameworks wie React und React Bootstrap. Ich bin bereit für neue Herausforderungen und spannende Projekte. Kontaktieren Sie mich und lassen Sie uns gemeinsam das nächste digitale Meisterwerk schaffen!"
+            },
+            "skills": {
+                "title" : "Fähigkeiten",
+                "body" : "Fähigkeiten und Pläne."
+            },
+            "project" : {
+                "projectsNavbar" : [
+                    { "linksId": "Wetter", "eventkey": "first" },
+                    { "linksId": "Todo", "eventkey": "second" },
+                    { "linksId": "Telefonbuchliste", "eventkey": "third" },
+                    { "linksId": "Nagyon Vadon", "eventkey": "fourth" }
+                ],
+                "projectsDetails" : [
+                    {
+                    "continue" : "Weiter",
+                    "title" : "Wetter App", 
+                    "desc" : "Die Wetteranwendung, die ich mit HTML/CSS und JavaScript entwickelt habe, ist ein hervorragendes Tool zum Anzeigen von Wettervorhersagen. Die App ist einfach zu bedienen und ermöglicht es Benutzern, genaue aktuelle Wetterbedingungen abzurufen."
+                    },
+                    {
+                    "continue" : "Weiter",
+                    "title" : "Todo App", 
+                    "desc" : "Erlauben Sie mir, meine TODO-Anwendung vorzustellen, die ich mit HTML/CSS und JavaScript erstellt habe. Ziel der App ist es, die Nachverfolgung und Verwaltung von Aufgaben zu erleichtern. Sie können der Anwendung Aufgaben hinzufügen und diese ganz einfach löschen, wenn Sie damit fertig sind."
+                    },
+                    {
+                    "continue" : "Weiter",
+                    "title" : "Telefonbuchliste", 
+                    "desc" : "Dies war eine Universitätsarbeit. Ich habe im Oktober mit dem Erlernen der Sprache begonnen und konnte diese Telefonbuchanwendung dank der bis dahin erworbenen thematischen Kenntnisse erstellen. In dieser Anwendung kann man über das Menüsystem Personen hinzufügen, löschen und suchen."
+                    },
+                    {
+                    "continue" : "Weiter",
+                    "title" : "Open Season", 
+                    "desc" : "Die Camp-Website, die ich mit HTML/CSS, JavaScript und React entwickelt habe, bietet Campern und ihren Eltern ein umfassendes Online-Erlebnis. Die Seite enthält Informationen zu verschiedenen Camp-Aktivitäten, Terminen und Anmeldegebühren. Auf der Website können sich Eltern online für das Camp anmelden und geeignete Aktivitäten für ihre Kinder auswählen."
+                    }
+                ] 
+            },
+            "contact" : {
+                "body" : [
+                    {"label" : "Name", "validationtext" : "Minimum 5 maximum 20 Charakter", "placeholder" : "Gib deinen Namen ein"},
+                    {"label" : "Email", "validationtext" : "@/./com/hu/eu/...", "placeholder" : "Gib deine Email ein"},
+                    {"label" : "Nachricht", "validationtext" : "Minimum 5 maximum 200 Charakter", "placeholder" : "Schreibst du eine Nachricht"}
+                ],
+                "button" : "Senden",
+                "modal" : {
+                    "title" : "Danke für deine Nachricht",
+                    "body" : "Ich werde bald mit einer Antwort antworten!",
+                    "button" : "Schließen"
+                }
+            },
+            "about" : {
+                "title": "Eine kurze Zusammenfassung über mich",
+                "accordion" : [
+                    {"header" : "Der Anfang der Anfänge", "body" : "Wenn ich auf meine frühen Jahre zurückblicke, habe ich mich mit ganzem Herzen der Welt der Technologie und Computer gewidmet. Als ich zehn Jahre alt war, entdeckte ich unseren ersten Computer, einen aufregenden Commodore 486. Das rudimentäre DOS-System und nur zwei Spiele brachten echte Magie in mein Leben. Gemeinsam mit meinen Brüdern tauchten wir jeden Tag in faszinierende Welten ein und mir wurde schnell klar, dass diese Art von Technologie ein ewiger Teil meines Lebens sein würde. Mein Engagement für die IT hat seine Wurzeln in dieser frühen Zeit. Die Entdeckungsfreude und die Kreativitätsmöglichkeiten, die Computer bieten, inspirierten mich zutiefst und ermutigten mich, stets mit den neuesten technologischen Entwicklungen Schritt zu halten.", "eventkey" : "first"},
+                    {"header" : "Schuljahre", "body" : "Schon während meiner Schulzeit blieb ich der Magie der IT treu und erforschte leidenschaftlich neue Möglichkeiten in der Welt der Entwicklung. In diese Zeit fielen auch meine ersten kleinen Schritte in Richtung Programmierung. Die von mir erstellten Websites und die Online-Plattformen, auf denen ich mich präsentierte, ermöglichten es mir, meiner Kreativität Ausdruck zu verleihen und die endlosen Möglichkeiten zu nutzen, die das Internet zu bieten hat. Ich erinnere mich, als Gportal, der Vorgänger von Wordpress, begann, das Internet zu erobern. Das Erstellen individueller Websites und das Teilen von Inhalten faszinierte mich schon damals. Meine ersten Erfahrungen als Webentwickler nahmen auf einer Plattform Gestalt an, bei der kreative Freiheit und der Ausdruck persönlichen Stils im Mittelpunkt standen.", "eventkey" : "second"},
+                    {"header" : "Ein Vogelnest verlassen", "body" : "In der Zeit des 'Ein Vogelnest verlassen' während meines Studiums stellte sich heraus, dass ich nicht weiter in der IT-Welt blieb, sondern der Beruf des Kochs mir die Tür zu Kreativität und Kreation öffnete. In dieser Zeit ging es darum, das Leben mit Großbuchstaben kennenzulernen, Erfahrungen zu sammeln und Ziele zu verwirklichen. Ich habe die Einflüsse meiner Umgebung respektvoll akzeptiert und Entscheidungen auf der Grundlage der daraus gezogenen Schlussfolgerungen getroffen. Eines meiner wichtigsten Ziele war es, mein eigenes Zuhause zu schaffen und mich weiterzuentwickeln und etwas über mich selbst zu lernen. Im Laufe meines Lebens habe ich in drei verschiedenen Ländern gelebt und gearbeitet, bevor es mir endlich gelang, meine Ziele zu erreichen. Der von mir gewählte Weg war spannend und lehrreich und ich konnte viele wertvolle Erfahrungen sammeln. Das Leben und Arbeiten in einem vielfältigen Umfeld gab mir die Möglichkeit, mein kreatives Denken zu entwickeln und andere Kulturen und Lebensstile kennenzulernen. Die Erfahrungen und Herausforderungen bestätigten, dass ich mein Leben der Verwirklichung meiner Ziele und Träume widmen möchte. Nachdem ich meine Ziele erreicht und mich in verschiedenen Umgebungen getestet hatte, beschloss ich schließlich, in mein Land zurückzukehren. Ich beginne ein neues Kapitel und möchte mir nun neue spannende Ziele setzen und noch mehr Möglichkeiten in der Welt der IT und Entwicklung entdecken.", "eventkey" : "third"},
+                    {"header" : "Formulierung des Ziels", "body" : "In dieser Zeit nahm in mir ein neuer, aufregender Lebensabschnitt Gestalt an. Gegen Ende meines 29. Lebensjahres wurde mir immer klarer, dass die IT meine Leidenschaft und mein Beruf ist. Ich begann intensiv mit dem Programmieren zu lernen, jeden Tag kleine Pausen einzulegen, habe aber zielstrebig, das heißt, nie aufgegeben. Obwohl mein Wissen durch die zehnjährige Abwesenheit etwas erschöpft war, zögerte ich nicht, sondern dachte, dass ich mein Studium noch einmal von vorne beginnen würde. Anfangs war mir die IT-Welt unbekannt, doch ich vertiefte mich schnell in Python, eine im Internet hochgelobte und leicht zu erlernende Sprache. Danach lernte ich die Websprachen HTML/CSS/Javascript kennen, mit denen ich Websites erstellen konnte. Aber was meine Aufmerksamkeit wirklich erregte, war die React-Javascript-Bibliothek, die mich durch ihre Einfachheit und Effizienz beeindruckte. Ich habe mein Wissen ständig verbessert, mich mit mehreren anderen React-basierten Bibliotheken vertraut gemacht und gelernt, das GIT-Versionskontrollsystem effektiv zu nutzen. Aufgrund meines Interesses und meiner Beharrlichkeit erkannte ein großes multinationales Unternehmen die Chance in mir und ich wurde als Mainframe-Administrator in den IT-Bereich versetzt. Während meiner Reise habe ich nie aufgehört, bin immer weitergekommen und habe in der Welt der IT ständig dazugelernt und mich weiterentwickelt. Für mich ist IT nicht nur ein Job, sondern ein Beruf, an dem ich Freude habe und in dem ich immer wieder neue Herausforderungen finde, denen ich mit Begeisterung entgegengehe.", "eventkey" : "fourth"}
+                ]
+            },
+            "cv":{
+                "contact" : {
+                    "title" : "Kontakt",
+                    "desc" : [
+                        {"label" : "Tel", "text" : "+3630/0965003"},
+                        {"label" : "Email", "text" : "alijie24gmail.com"},
+                        {"label" : "Adresse", "text" : "6800 Hódmezővásárhely, Ungarn"},
+                        {"label" : "Geburtsjahr", "text" : "Ungarn, 1990.09.07."}
+                    ]
+                },
+                "education": {
+                    "title" : "Ausbildung",
+                    "desc" : [
+                        {"year" : "2010 - 2012", "title" : "Kock", "place" : "HISZK Corvin Mátyás"},
+                        {"year" : "2005 - 2010", "title" : "Abitur", "place" : "HISZK Corvin Mátyás"},
+                        {"year" : "2023 - ", "title" : "Programm Designer Informatiker", "place" : "Tokajer Gebirge Universität"}
+                    ]
+                },
+                "lang": {
+                    "title" : "Sprache",
+                    "desc" : [
+                        {"lang" : "Deutsch", "width" : "70%"},
+                        {"lang" : "Englisch", "width" : "30%"}
+                    ]
+                },
+                "experience" : {
+                    "title" : "Erfahrung",
+                    "content" : [
+                        {"year" : "2021 - momentan", "place" : "Deutsche Telekom IT Solution", "title" : "Mainframe Administrator", "desc" : "Grundlegende z/OS-System- und Subsystemkenntnisse. Anwendung von TSO-, ISPF-, JCL-Kenntnissen, Batch-/Scheduling-Kenntnissen. Bearbeitung von Aufgaben im Ticketsystem innerhalb der vom Kunden gesetzten Frist."},
+                        {"year" : "2018 - 2021", "place" : "Handl Tyrol Gmbh., Tyrol", "title" : "Maschinführer", "desc" : "Montage und Demontage der im Unternehmen betriebenen Abfüllmaschinen, Anpassung an unterschiedliche Produkte im HCU-System, Erfassung der Produktbewegungen in einer SQL-Datenbank. Überwachung der Produktion auf dem Server des Unternehmens, Aufzeichnung periodischer Daten im Excel-Format. Befüllen und Einstellen der Räucherkammern. Aufgrund meiner erworbenen Erfahrung und meines Verantwortungsbewusstseins hatte ich in mehreren Fällen die Möglichkeit, meine Eignung als Schichtleiter unter Beweis zu stellen."},
+                        {"year" : "2016 - 2017", "place" : "Marks and Spencer, UK", "title" : "Lagerarbeiter", "desc" : "Zu meinen Aufgaben im europäischen Zentralvertriebslager des Unternehmens gehörte die Abrechnung des Eingangspreises von mehreren tausend Artikeln in der vom Unternehmen entwickelten Datenbank und die Pflege der Lagerordnung."},
+                        {"year" : "2015 - 2016", "place" : "Lidl Ungarn Bt.", "title" : "Verkäufer", "desc" : "Zu meinen Aufgaben als Filialverkäufer gehörte die professionelle und einfühlsame Kundenbetreuung, die Informationsvermittlung und die Bearbeitung von Reklamationen. Kontinuierlicher Warennachschub, Prüfung und Annahme eingehender Sendungen, Entgegennahme von Retouren und Aufrechterhaltung der Lagerordnung."},
+                        {"year" : "2013 - 2015", "place" : "Daimler Mercedes, Deutschlang", "title" : "Logistische mitarbeiter", "desc" : "Empfang und Erfassung von Autoteilen in einer Excel-Datenbank, Lageraufgaben, Verpackung und Lieferung von Produkten, wobei besonderes Augenmerk auf die Einhaltung der für den ordnungsgemäßen Betrieb der Produktionslinien wesentlichen Fristen gelegt wird."}
+                    ]
+                },
+                "interest": {
+                    "title" : "Interesse",
+                    "content" : [
+                        {"title" : "Codierung"},
+                        {"title" : "Kochen"},
+                        {"title" : "Sport"},
+                        {"title" : "DIY"},
+                        {"title" : "Videospiel"}
+                    ]
+                }
+            },
+            "footer" : {
+                "title" : [
+                    {"title" : "Kontakt", "content" : [
+                        {"label" : "Ács Árpád"},
+                        {"label" : "+3630/096-5003"},
+                        {"label" : "alijie24@gmail.com"}
+                    ]},
+                    {"title" : "Soziales", "content" : [
+                        {"label" : "Instagram"},
+                        {"label" : "Facebook"},
+                        {"label" : "Linkedin"}
+                    ]},
+                    {"title" : "Nützliche Links", "content" : [
+                        {"label" : "Github"},
+                        {"label" : "CodeWars"},
+                        {"label" : "W3Schools"},
+                        {"label" : "Mozilla"}
+                    ]}
+                ]
+            }
+            
+        }
+    }
+}
